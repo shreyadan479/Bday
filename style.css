@@ -1,0 +1,51 @@
+@font-face{
+    font-family: "pacific";
+    src: url('src/Pacifico-Regular.ttf');
+}
+*{
+    background-color: salmon;
+}
+.mac{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.mac h1{
+    font-size: 45px;
+    font-family: pacific, sans-serif;
+}
+.mac img{
+    box-shadow: 5px 5px 5px 5px gray;
+    border-radius: 5%;
+    height: 470px;
+    width: 400px;
+}
+.letter{
+    width: 100%;
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.letter div{
+    padding: 15px;
+    border-radius: 5%;
+    background-color: whitesmoke;
+}
+.letter h3{
+    background-color: whitesmoke;
+}
+.letter h2{
+    background-color: whitesmoke;
+}
+.collage{
+    display: flex;
+    justify-content: space-evenly;
+}
+.collage img{
+    border-radius: 5%;
+    height: 650px;
+    width: 650px;
+}
